@@ -18,7 +18,7 @@ Welcome to Dashboard_Pro v1.0, a collaborative endeavor led by me and my excepti
 - Temperature is in the range of [-60, 60] °C
 - Battery level in percent.
 
-# On the server GUI, there shall be:
+# On the server GUI, there is a:
 - A slider for speed. Speed is an integer in the range of 0 and 240.
 - A slider for temperature. Temperature is an integer in the range of -60 and 60
 - A slider for battery level. Battery level is an integer in the range of 0 and 100.
@@ -27,4 +27,9 @@ Welcome to Dashboard_Pro v1.0, a collaborative endeavor led by me and my excepti
 - When warning is checked both the left.right checkboxes shall be disabled.
 - When none of the checkboxes is checked, all of them shall be enabled
 
+# On the client GUI there is a:
+Simple dashboard to showcase real-time data, including speed, temperature, battery level, lighting signals, and the status of communication. Additionally, ensure it promptly alerts any communication problems between the client and server.
+
+# Project-overview
+![image](https://github.com/gabelegendary/Car_Dashboard_Project/assets/109476146/728ad4d3-1e2a-4abb-9a65-3870fb0f7238)
 
