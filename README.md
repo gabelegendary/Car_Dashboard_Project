@@ -11,5 +11,11 @@
 # Introduction
 Welcome to Dashboard_Pro v1.0, a collaborative endeavor led by me and my exceptional team. Join us on this exciting journey as we unveil our innovative creation, a testament to our technical prowess, creativity, problem-solving abilities, and unwavering dedication. We invite you to delve into the world where technology and teamwork converge, powering the realization of this remarkable project. Prepare for an exhilarating experience!
 
+# Requirements
+- The client and the server shall not depend on a specific communication protocol.
+- They shall be able to communicate to each other using TCP/IP and Serial & CAN protocols
+- Max. speed is 240 km/h
+- Temperature is in the range of [-60, 60] °C
+- Battery level in percent.
 
 
