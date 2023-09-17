@@ -46,11 +46,37 @@ Simple dashboard to showcase real-time data, including speed, temperature, batte
 
 # Challenges Faced:
 
-Technical Compatibility Challenges: Dealing with team members using diverse operating systems (Linux, Windows, macOS) introduced compatibility issues, particularly concerning synchronization of sound, graphical user interface (GUI), and port configurations.
+- Technical Compatibility Challenges: Dealing with team members using diverse operating systems (Linux, Windows, macOS) introduced compatibility issues, particularly concerning synchronization of sound, graphical user interface (GUI), and port configurations.
 
-Testing Complexities: Ensuring the functionality of all components, especially within the context of Controller Area Network (CAN) communication, proved to be a complex task. CAN communication, with its support for multi-master setups and message-based protocols, posed unique testing challenges.
+- Testing Complexities: Ensuring the functionality of all components, especially within the context of Controller Area Network (CAN) communication, proved to be a complex task. CAN communication, with its support for multi-master setups and message-based protocols, posed unique testing challenges.
 
-Quality Assurance: Maintaining consistent code quality and guarding against regressions became challenging due to frequent updates from various team members. To address this, we implemented a form of continuous integration to prevent conflicts and uphold code quality standards.
+- Quality Assurance: Maintaining consistent code quality and guarding against regressions became challenging due to frequent updates from various team members. To address this, we implemented a form of continuous integration to prevent conflicts and uphold code quality standards.
 
-Learning Curve: The learning curve associated with adopting new tools, frameworks (such as Qt), and unfamiliar technologies during the project was time-intensive and temporarily impacted the pace of development.
+- Learning Curve: The learning curve associated with adopting new tools, frameworks (such as Qt), and unfamiliar technologies during the project was time-intensive and temporarily impacted the pace of development.
 
+# Contributors
+- GabeLegendary
+- HomajonB
+- nkkyviv
+- Vishnugundu
+- mhistamartins
+
+To compile and execute both the client and server applications on the desktop, follow these steps:
+
+1. Create a new directory and navigate into it:
+   ```
+   mkdir build && cd build
+   ```
+
+2. Configure the project using CMake, build it with 'make,' and run the server and client applications:
+   ```
+   cmake .. && make && ./server & ./client
+   ```
+
+**Note**: The default communication protocol utilized here is TCP (for network communication). If you wish to switch to the UART communication protocol, modify the 'CMakeLists.txt' file at line 7 as follows:
+
+```cmake
+set(USE_UART ON) #Change the ON to OFF
+```
+
+This will enable the UART communication protocol for your project.
