@@ -33,3 +33,24 @@ Simple dashboard to showcase real-time data, including speed, temperature, batte
 # Project-overview
 ![image](https://github.com/gabelegendary/Car_Dashboard_Project/assets/109476146/728ad4d3-1e2a-4abb-9a65-3870fb0f7238)
 
+# Tools and Technologies Employed:
+
+- **Version Control System / Continuous Integration**: Git and GitHub were utilized to monitor changes and facilitate collaboration throughout the software development process.
+
+- **GUI Design and Sound Implementation**: Qt, a versatile cross-platform application framework, was chosen for creating graphical user interfaces and incorporating sound elements.
+
+- **Project Configuration, Dependency Management, Builds**: CMake was employed to efficiently manage the build process for software projects. Visual Studio Code (VSC) served as the code editor for writing and debugging code. PlatformIO, an open-source ecosystem, was harnessed to streamline cross-platform development in embedded systems, simplifying project management for microcontrollers.
+
+# Project-Architecture
+![image](https://github.com/gabelegendary/Car_Dashboard_Project/assets/109476146/7fefb876-0178-448d-bef2-1ad9e540794f)
+
+# Challenges Faced:
+
+Technical Compatibility Challenges: Dealing with team members using diverse operating systems (Linux, Windows, macOS) introduced compatibility issues, particularly concerning synchronization of sound, graphical user interface (GUI), and port configurations.
+
+Testing Complexities: Ensuring the functionality of all components, especially within the context of Controller Area Network (CAN) communication, proved to be a complex task. CAN communication, with its support for multi-master setups and message-based protocols, posed unique testing challenges.
+
+Quality Assurance: Maintaining consistent code quality and guarding against regressions became challenging due to frequent updates from various team members. To address this, we implemented a form of continuous integration to prevent conflicts and uphold code quality standards.
+
+Learning Curve: The learning curve associated with adopting new tools, frameworks (such as Qt), and unfamiliar technologies during the project was time-intensive and temporarily impacted the pace of development.
+
