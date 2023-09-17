@@ -9,7 +9,7 @@
 8. Building the project
 
 # Introduction
-Welcome to Dashboard_Pro v1.0 – a collaborative effort by yours truly(ME) and my amazing team members. In this project, I'll take you on a journey through our innovative creation that showcases our technical skills, creativity, problem-solving and dedication. We invite you to explore how we leveraged technology and teamwork to bring this project to life. Enjoy your flight!!!!!
+Welcome to Dashboard_Pro v1.0, a collaborative endeavor led by me and my exceptional team. Join us on this exciting journey as we unveil our innovative creation, a testament to our technical prowess, creativity, problem-solving abilities, and unwavering dedication. We invite you to delve into the world where technology and teamwork converge, powering the realization of this remarkable project. Prepare for an exhilarating experience!
 
 
 
