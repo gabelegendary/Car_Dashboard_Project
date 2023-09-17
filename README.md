@@ -69,6 +69,7 @@ Simple dashboard to showcase real-time data, including speed, temperature, batte
 - Vishnugundu
 - mhistamartins
 
+# Building the project
 To compile and execute both the client and server applications on the desktop, follow these steps:
 
 1. Create a new directory and navigate into it:
