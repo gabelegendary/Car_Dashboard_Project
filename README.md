@@ -9,8 +9,6 @@
 8. Building the project
 
 # Introduction
-Introduction:
-
 Welcome to the gabelegendary/Car_Dashboard_Project repository! This repository hosts the source code and documentation for an innovative and versatile client-server application designed to meet a variety of communication needs. Whether you're working with TCP/IP, Serial, or CAN protocols, this project provides a seamless solution for real-time data exchange.
 
 This project boasts an intuitive graphical user interface (GUI) built with Qt, making it suitable for cross-platform use. From monitoring vehicle speed to tracking temperature and battery levels, this system ensures you have all the essential information at your fingertips. It even handles lighting signals effortlessly, simplifying your control tasks.
