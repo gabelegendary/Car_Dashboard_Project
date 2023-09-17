@@ -88,7 +88,7 @@ To compile and execute both the client and server applications on the desktop, f
 set(USE_UART ON) #Change the ON to OFF
 ```
 
-This will enable the UART communication protocol for your project. To use UART, ensure that you have two microcontrollers connected to different ports, either on a single computer or on two separate computers, and specify the port addresses in the 'settings.h' file.
+This will enable the UART communication protocol for your project. To use UART, ensure that you have two microcontrollers(Arduino ESP32) connected to different ports, either on a single computer or on two separate computers, and specify the port addresses in the 'settings.h' file.
 
 Next, you'll need to upload the project to both the client and server microcontrollers. Use the following commands for each microcontroller:
 
