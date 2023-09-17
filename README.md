@@ -18,4 +18,13 @@ Welcome to Dashboard_Pro v1.0, a collaborative endeavor led by me and my excepti
 - Temperature is in the range of [-60, 60] °C
 - Battery level in percent.
 
+# On the server GUI, there shall be:
+- A slider for speed. Speed is an integer in the range of 0 and 240.
+- A slider for temperature. Temperature is an integer in the range of -60 and 60
+- A slider for battery level. Battery level is an integer in the range of 0 and 100.
+- Three checkboxes for the light signals:
+- When left is checked, right shall be disabled and when right is checked, left shall be disabled.
+- When warning is checked both the left.right checkboxes shall be disabled.
+- When none of the checkboxes is checked, all of them shall be enabled
+
 
