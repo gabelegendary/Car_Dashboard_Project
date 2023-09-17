@@ -71,12 +71,14 @@ Simple dashboard to showcase real-time data, including speed, temperature, batte
 To compile and execute both the client and server applications on the desktop, follow these steps:
 
 1. Create a new directory and navigate into it:
-   ```
+
+   ```bash
    mkdir build && cd build
    ```
 
 2. Configure the project using CMake, build it with 'make,' and run the server and client applications:
-   ```
+
+   ```bash
    cmake .. && make && ./server & ./client
    ```
 
@@ -86,4 +88,20 @@ To compile and execute both the client and server applications on the desktop, f
 set(USE_UART ON) #Change the ON to OFF
 ```
 
-This will enable the UART communication protocol for your project.
+This will enable the UART communication protocol for your project. To use UART, ensure that you have two microcontrollers connected to different ports, either on a single computer or on two separate computers, and specify the port addresses in the 'settings.h' file.
+
+Next, you'll need to upload the project to both the client and server microcontrollers. Use the following commands for each microcontroller:
+
+For the client microcontroller:
+
+```bash
+make upload_client
+```
+
+For the server microcontroller:
+
+```bash
+make upload_server
+```
+
+These commands will flash the compiled code onto the respective microcontrollers, enabling UART communication between them.
