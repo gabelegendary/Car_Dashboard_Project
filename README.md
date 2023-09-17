@@ -9,7 +9,15 @@
 8. Building the project
 
 # Introduction
-Welcome to Dashboard_Pro v1.0, a collaborative endeavor led by me and my exceptional team. Join us on this exciting journey as we unveil our innovative creation, a testament to our technical prowess, creativity, problem-solving abilities, and unwavering dedication. We invite you to delve into the world where technology and teamwork converge, powering the realization of this remarkable project. Prepare for an exhilarating experience!
+Introduction:
+
+Welcome to the gabelegendary/Car_Dashboard_Project repository! This repository hosts the source code and documentation for an innovative and versatile client-server application designed to meet a variety of communication needs. Whether you're working with TCP/IP, Serial, or CAN protocols, this project provides a seamless solution for real-time data exchange.
+
+This project boasts an intuitive graphical user interface (GUI) built with Qt, making it suitable for cross-platform use. From monitoring vehicle speed to tracking temperature and battery levels, this system ensures you have all the essential information at your fingertips. It even handles lighting signals effortlessly, simplifying your control tasks.
+
+I'll guide you through the architecture, tools, technologies, and challenges we faced during development, giving you valuable insights into the project's inner workings.
+
+Feel free to explore the code, contribute to its improvement, and adapt it to your specific requirements. Thank you for visiting this repository, and I hope you find our project valuable for your needs!
 
 # Requirements
 - The client and the server shall not depend on a specific communication protocol.
