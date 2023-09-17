@@ -26,7 +26,7 @@ Feel free to explore the code, contribute to its improvement, and adapt it to yo
 - Temperature is in the range of [-60, 60] °C
 - Battery level in percent.
 
-# On the server GUI, there is a:
+# On the Server GUI you will find the following:
 - A slider for speed. Speed is an integer in the range of 0 and 240.
 - A slider for temperature. Temperature is an integer in the range of -60 and 60
 - A slider for battery level. Battery level is an integer in the range of 0 and 100.
