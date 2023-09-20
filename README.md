@@ -61,11 +61,11 @@ Simple dashboard to showcase real-time data, including speed, temperature, batte
 - Learning Curve: The learning curve associated with adopting new tools, frameworks (such as Qt), and unfamiliar technologies during the project was time-intensive and temporarily impacted the pace of development.
 
 # Contributors
-- GabeLegendary
-- HomajonB
-- nkkyviv
-- Vishnugundu
-- mhistamartins
+GabeLegendary
+HomajonB
+nkkyviv
+Vishnugundu
+mhistamartins
 
 # Building the project
 To compile and execute both the client and server applications on the desktop, follow these steps:
